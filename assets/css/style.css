@@ -1931,6 +1931,7 @@ section {
   border-radius: .8rem;
   display: block;
   transition: 1s;
+  margin-left: 80px;
 }
 
 .blog-post_img img:hover {
@@ -1963,6 +1964,7 @@ section {
   margin: 1.5rem 0 2rem;
   text-transform: uppercase;
   color: #000;
+  font-weight: 700;
 }
 
 .blog-post_text {
@@ -1996,6 +1998,11 @@ section {
       min-width: 30rem;
       max-width: 30rem;
   }
+
+  /* .blog-post_img img {
+    margin-left: 0px;
+  } */
+
   .blog-container h2 {
       margin-top: 120px;
       margin-left: 275px;
@@ -2021,6 +2028,10 @@ section {
       min-width: 100%;
       max-width: 100%;
       transform: translate(0, -1rem);
+  }
+
+  .blog-post_img img {
+    margin-left: 0px;
   }
   .blog-container {
       margin-top: auto;
